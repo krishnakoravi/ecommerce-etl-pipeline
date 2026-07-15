@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Data (generated locally, not committed -- regenerate via generate_events.py)
+data/sample/*.json
+data/processed/
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
